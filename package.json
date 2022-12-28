@@ -1,7 +1,7 @@
 {
-  "name": "vite-react-rescript-starter",
+  "name": "rex",
   "version": "1.0.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "vite build",
     "clean": "rescript clean -with-deps",
@@ -13,16 +13,18 @@
   "dependencies": {
     "@rescript/react": "^0.10.3",
     "@ryyppy/rescript-promise": "^2.1.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^17.0.2",
+    "react-dom": "17.0.2",
     "rescript-webapi": "^0.7.0"
   },
   "devDependencies": {
     "@jihchi/vite-plugin-rescript": "^5.0.0",
-    "@testing-library/jest-dom": "^5.16.5",
+    "@rescripts/rescript-use-eslint-config": "^0.0.11",
     "@testing-library/react": "^13.4.0",
+    "@testing-library/jest-dom": "^5.16.5",
     "@vitejs/plugin-react": "^3.0.0",
     "jsdom": "^20.0.3",
+    "prettier": "^2.5.1",
     "rescript": "^10.0.1",
     "rescript-vitest": "^0.3.1",
     "vite": "^4.0.0",

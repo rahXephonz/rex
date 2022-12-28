@@ -1,5 +1,4 @@
-@module("./logo.svg") external logo: string = "default"
-%%raw(`import './App.css'`)
+%%raw(`import './styles/App.css'`)
 
 @react.component
 let make = () => {
@@ -7,7 +6,6 @@ let make = () => {
 
   <div className="App">
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
       <p> {"Hello Vite + React + ReScript!"->React.string} </p>
       <p>
         <button onClick={_e => setCount(count => count + 1)}>
