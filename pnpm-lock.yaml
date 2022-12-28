@@ -3,7 +3,6 @@ lockfileVersion: 5.4
 specifiers:
   '@jihchi/vite-plugin-rescript': ^5.0.0
   '@rescript/react': ^0.10.3
-  '@rescripts/rescript-use-eslint-config': ^0.0.11
   '@ryyppy/rescript-promise': ^2.1.0
   '@testing-library/jest-dom': ^5.16.5
   '@testing-library/react': ^13.4.0
@@ -27,7 +26,6 @@ dependencies:
 
 devDependencies:
   '@jihchi/vite-plugin-rescript': 5.0.0_rescript@10.0.1+vite@4.0.3
-  '@rescripts/rescript-use-eslint-config': 0.0.11
   '@testing-library/jest-dom': 5.16.5
   '@testing-library/react': 13.4.0_sfoxds7t5ydpegc3knd667wn6m
   '@vitejs/plugin-react': 3.0.0_vite@4.0.3
@@ -563,22 +561,6 @@ packages:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
     dev: false
-
-  /@rescripts/rescript-use-eslint-config/0.0.11:
-    resolution: {integrity: sha512-rMdRunSosbLM2aGLJpjEnmkfQYm71NmObt6QR4h3e98+vk4in3xelk24vJYcMoCD3Gy/W3sL7IL58I4HGavHhA==}
-    dependencies:
-      '@rescripts/utilities': 0.0.7
-    transitivePeerDependencies:
-      - react-scripts
-    dev: true
-
-  /@rescripts/utilities/0.0.7:
-    resolution: {integrity: sha512-kdk4qvNYXOH7mVJCP/URokp5J+1HCR+tT1Zgtp8X9hLywn6WoKlU/tQ2ECB/NPOHrZjp/DGXWeQBAchLXV8q2w==}
-    peerDependencies:
-      react-scripts: 2 - 3
-    dependencies:
-      ramda: 0.26.1
-    dev: true
 
   /@ryyppy/rescript-promise/2.1.0:
     resolution: {integrity: sha512-+dW6msBrj2Lr2hbEMX+HoWCvN89qVjl94RwbYWJgHQuj8jm/izdPC0YzxgpGoEFdeAEW2sOozoLcYHxT6o5WXQ==}
@@ -1782,10 +1764,6 @@ packages:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
     dev: true
 
-  /ramda/0.26.1:
-    resolution: {integrity: sha512-hLWjpy7EnsDBb0p+Z3B7rPi3GDeRG5ZtiI33kJhTt+ORCd38AbAIjB/9zRIUoeTbE/AVX5ZkU7m6bznsvrf8eQ==}
-    dev: true
-
   /react-dom/17.0.2_react@17.0.2:
     resolution: {integrity: sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==}
     peerDependencies:
@@ -1884,8 +1862,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup/3.8.1:
-    resolution: {integrity: sha512-4yh9eMW7byOroYcN8DlF9P/2jCpu6txVIHjEqquQVSx7DI0RgyCCN3tjrcy4ra6yVtV336aLBB3v2AarYAxePQ==}
+  /rollup/3.9.0:
+    resolution: {integrity: sha512-nGGylpmblyjTpF4lEUPgmOw6OVxRvnI6Iuuh6Lz4O/X66cVOX1XJSsqP1YamxQ+mPuFE7qJxLFDSCk8rNv5dDw==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2107,7 +2085,7 @@ packages:
       esbuild: 0.16.12
       postcss: 8.4.20
       resolve: 1.22.1
-      rollup: 3.8.1
+      rollup: 3.9.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
@@ -2141,7 +2119,7 @@ packages:
       esbuild: 0.16.12
       postcss: 8.4.20
       resolve: 1.22.1
-      rollup: 3.8.1
+      rollup: 3.9.0
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
